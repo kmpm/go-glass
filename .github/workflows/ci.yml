@@ -23,9 +23,6 @@ jobs:
     - name: Setup go
       uses: actions/setup-go@v2.1.5
       
-    - name: configure
-      run: ./configure
-      
     - name: Build application
       run: make
     
